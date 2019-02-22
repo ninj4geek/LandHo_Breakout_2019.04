@@ -1,8 +1,6 @@
 !currentChallenge
 
-Basically, it's breakout, the brick and paddle game. Writing in JavaFX Scenebuilder. 
-
-(Right now, this is my think-out-loud notepad)
+Basically, it's breakout, the brick and paddle game. Writing in JavaFX. 
 
 Need: 
 (Visual items)
@@ -10,7 +8,7 @@ Background
 Perimeter barrier 
 Bricks, several rows
 1 Ball (cannonball, per play)
-1 Paddle (ship image)
+1 Paddle (ship image?)
 
 (Functional)
 Bouncing
@@ -21,11 +19,6 @@ Bouncing
                            if (touchpoint < midpoint) then 90° * (touchpoint) / (length/2)
   Bricks: reflect at same angle received, then take damage. 
   
-Damage
-   Brick HP = layer #. Each ball contact = 1 hp damage
-
 Ball: Out of bounds when contact bottom layer
   
-
 Win condition: Brick Count == 0.
-Lose condition: out of balls (cannonballs)
